@@ -20,3 +20,20 @@ body{
     text-align: center;
     margin-top: 100px;
 }
+
+.fl{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.lab{
+    width: 380px;
+}
+
+input{
+    font-size: 20px;
+}
