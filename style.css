@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#bordur{
+    width: 100%;
+}
+
+.greetingp{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-align: center;
+}
+
+.center{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
