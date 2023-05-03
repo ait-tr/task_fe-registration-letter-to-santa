@@ -12,13 +12,13 @@ body {
     top: 0px;
 }
 
-.greetg,
-.greeti {
+.greetg, .greeti {
     color: red;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .greeti {
@@ -32,7 +32,6 @@ body {
 .center {
     font-size: 20px;
     text-align: center;
-    margin-top: 100px;
 }
 
 form {
@@ -60,7 +59,13 @@ form {
     width: 420px;
 }
 
-input,
-select {
+input, select {
     font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
 }
