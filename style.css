@@ -1,27 +1,45 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 
-#bordur{
+#bordur {
     width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
 }
 
-.greetingp{
+.greetg,
+.greeti {
     color: red;
     font-size: 50px;
     font-weight: bold;
-    
     text-align: center;
+    position: relative;
 }
 
-.center{
+.greeti {
+    margin-top: 200px;
+}
+
+.greetg {
+    margin-top: 600px;
+}
+
+.center {
     font-size: 20px;
     text-align: center;
     margin-top: 100px;
 }
 
-.fl{
+form {
+    padding: 0 250px;
+}
+
+.fl {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -30,10 +48,19 @@ body{
     font-size: 30px;
 }
 
-.lab{
+.lab1 {
     width: 380px;
 }
 
-input{
+.lab2 {
+    width: 450px;
+}
+
+.inp {
+    width: 420px;
+}
+
+input,
+select {
     font-size: 20px;
 }

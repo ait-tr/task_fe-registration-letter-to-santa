@@ -11,49 +11,95 @@
 
 <body>
     <img src="2018.png" alt="" id="bordur">
-    <p class="greetingp">Заполнить форму регистрации</p>
+    <div class="greeti">
+        <p >Заполнить форму регистрации</p>
+    </div>
     <form action="">
         <div class="fl">
-            <div class="lab">
+            <div class="lab1">
                 <label for="login">Введите логин</label>
             </div>
             <div class="inp">
-                <input type="text" id="login">
+                <input type="text" placeholder="Ваш логин" id="login">
+            </div>
+            <div class="lab2">
+                <label for="costume">Цвет твоего костюма</label>
+            </div>
+            <div class="inp">
+                <input type="color" name="" id="costume" value="#e66465">
             </div>
         </div>
         <div class="fl">
-            <div class="lab">
+            <div class="lab1">
                 <label for="pass">Введите пароль</label>
             </div>
             <div class="inp">
                 <input type="password" name="pass" id="">
             </div>
+            <div class="lab2">
+                <label for="hat">Цвет твоей шапочки</label>
+            </div>
+            <div class="inp">
+                <input type="color" name="" id="hat" value="#f6b73c">
+            </div>
         </div>
         <div class="fl">
-            <div class="lab">
+            <div class="lab1">
                 <label for="fio">Введите ФИО</label>
             </div>
             <div class="inp">
-                <input type="text" id="fio">
+                <input type="text" placeholder="Иван Иванович Иванов" id="fio">
+            </div>
+            <div class="lab2">
+                <label for="toy">Выбери игрушку</label>
+            </div>
+            <div class="inp">
+                <select name="" id="toy">
+                    <option disabled>Выбери игрушку</option>
+                    <option>Чебурашка</option>
+                    <option>Машина</option>
+                    <option>Лего</option>
+                    <option>Кукла</option>
+                </select>
             </div>
         </div>
         <div class="fl">
-            <div class="lab">
+            <div class="lab1">
                 <p>Ваш пол</p>
             </div>
             <div class="inp">
-                <input type="radio" name="gender" id="male" value="male" checked>
+                <input type="radio" name="действие" id="male" value="male" checked>
                 <label for="male">мальчик</label>
                 <input type="radio" name="gender" id="female">
                 <label for="female">девочка</label>
             </div>
+            <div class="lab2">
+                <p>Ты хорошо себя вел?</p>
+            </div>
+            <div class="inp">
+                <input type="radio" name="action" id="yes" value="yes" checked>
+                <label for="yes">да</label>
+                <input type="radio" name="action" id="no">
+                <label for="no">нет</label>
+            </div>
         </div>
         <div class="fl">
-            <div class="lab">
+            <div class="lab1">
                 <label for="name">Введите дату рождения</label>
             </div>
             <div class="inp">
                 <input type="date" name="" id="">
+            </div>
+            <div class="lab2">
+                <label for="login">Место рождения</label>
+            </div>
+            <div class="inp">
+                <select name="" id="">
+                    <option disabled>Место рождения</option>
+                    <option>Берлин</option>
+                    <option>Потсдам</option>
+                    <option>Брандербург</option>
+                </select>
             </div>
         </div>
     </form>
