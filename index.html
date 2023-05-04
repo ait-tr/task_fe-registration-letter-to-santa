@@ -9,45 +9,46 @@
 <body>
     <h1>Письмо Санте</h1>
     <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на рождество</p>
-<div><input type="text" placeholder="login"></div>
-<div><input type="text" placeholder="Password"></div>
-<div><input type="text" placeholder="name"></div>
+    <form action="./greetings.html">
+<input type="text" placeholder="login">
+<br>
+<input type="password" placeholder="Password" required autocomplete="on">
+<br>
+<input type="text" placeholder="name" required autocomplete="on">
 
 <H4>Выбери свой пол</H4>
    <label for="male">Мальчик</label>
-    <input type="radio" name="gender" id="male">
+    <input type="radio" name="gender" id="male" value="male" required>
 
     <label for="female">Девочка</label>
-    <input type="radio" name="gender" id="female">
+    <input type="radio" name="gender" id="female" value="female" checked>
+
     <H4>А когда ты родился?</H4>
-<div>
     <label for="">День рождения</label>
-    <input type="date" name="" id="">
-</div>
+    <input type="date" name="date" id="">
+
 <h4>Выбери свой город</h4>
-<form>
-    <label for="city"></label>
-    <input type="text" id="city" list="cities" name="city">
-    <datalist id="cities">
-        <option value="Berlin">
-        <option value="Dresden">
-        <option value="Koln">
-        <option value="Stutgard">
-        <option value="München">
-    </datalist>
-</form>
+
+    
+<select name="city" id="city">
+    <option value="" selected disabled>Выберете город</option>
+    <option value="Berlin">Berlin</option>
+    <option value="Bremen">Bremen</option>
+    <option value="Dresden">Dresden</option>
+</select>
     <h4>Выбери цвет своей игрушки</h4>
-    <div><input type="color" name="" id="">  Шапочка</div>
-    <div><input type="color" name="" id="">  Костюм</div>
+    <input type="color" name="" id="">  Шапочка
+    <input type="color" name="" id="">  Костюм
 
     <h4>Ты был хорошим ребенком?</h4>
     <label for="">да</label>
     <input type="radio">
     <label for="">нет</label>
     <input type="radio">
-<form action="./greetings.html">
+
     <h2>Ты точно заполнил все поля?</h2>
-    <div><button type="submit">Отправить письмо Санте</button></div>
+    <button type="submit">Отправить письмо Санте</button>
+     
 </form>
 </body>
 </html>
