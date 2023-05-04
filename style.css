@@ -1,0 +1,18 @@
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+
+
+p {
+    color: rgb(169, 3, 3);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

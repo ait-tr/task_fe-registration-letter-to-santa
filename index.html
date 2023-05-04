@@ -6,75 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form action="./greetings.html">
-        <div>
-            <h1>Письмо Санте</h1>
+    <header>
+        <div class="introduction">
+            <div>
+                <h1> Письмо Санте </h1>
+            </div>
+            <div><img src="./logo_lg.png" alt=""></div>
         </div>
+    </header>
 
-        <div>
-            <p>Привет, малыш! Как тебя зовут?</p>
-        </div>
-        <div><label for="name">имя</label></div>
-        <div><input id="name" type="text" placeholder="Даниил"></div>
-        <div><label for="login">почта</label></div>
-        <div><input id="login" type="email" placeholder="santa@podarka.net"></div>
-        <div><label for="password">пароль</label></div>
-        <div><input id="password" type="password"></div>
+    <div class="container">
+        <form action="./greetings.html">
+            <div>
+                <p>Привет, малыш! Как тебя зовут?</p>
+            </div>
+            <div><label for="name">имя</label></div>
+            <div><input id="name" type="text" placeholder="Даниил"></div>
+            <div><label for="login">почта</label></div>
+            <div><input id="login" type="email" placeholder="santa@podarka.net"></div>
+            <div><label for="password">пароль</label></div>
+            <div><input id="password" type="password"></div>
 
-        <div>
-            <p>Расскажи немного о себе</p>
-        </div>
+            <div>
+                <p>Расскажи немного о себе</p>
+            </div>
 
-        <div>
-            <div><label for="man">Мальчик</label></div>
-            <div><input id="man" type="radio" name="gender"></div>
-            <div><label for="woman">Девочка</label></div>
-            <div><input id="woman" type="radio" name="gender"></div>
-        </div>
+            <div>
+                <div><label for="man">Мальчик</label></div>
+                <div><input id="man" type="radio" name="gender"></div>
+                <div><label for="woman">Девочка</label></div>
+                <div><input id="woman" type="radio" name="gender"></div>
+            </div>
 
-        <div>
-            <div><label for="happyBirthday">Твой день рождения:</label></div>
-            <div><input type="date" name="" id="happyBirthday" placeholder=""></div>
-        </div>
-        <div>
-            <input name="city" list="cities" placeholder="выбери город">
-            <datalist id="cities">
-                <option value="Берлин"></option>
-                <option value="Франкфурт"></option>
-                <option value="Мюнхен"></option>
-                <option value="Кельн"></option>
-            </datalist>
-        </div>
+            <div>
+                <div><label for="happyBirthday">Твой день рождения:</label></div>
+                <div><input type="date" name="" id="happyBirthday" placeholder=""></div>
+            </div>
+            <div>
+                <input name="city" list="cities" placeholder="выбери город">
+                <datalist id="cities">
+                    <option value="Берлин"></option>
+                    <option value="Франкфурт"></option>
+                    <option value="Мюнхен"></option>
+                    <option value="Кельн"></option>
+                </datalist>
+            </div>
 
-        <div>
-            <p>Что тебе нравиться?</p>
-        </div>
-        <div>
-            <label for="paint">Рисовать</label>
-            <input type="checkbox" name="hobby" id="paint">
-            <label for="ball">Играть с мячем</label>
-            <input type="checkbox" name="hobby" id="ball">
-            <label for="lego">Строить конструкторы</label>
-            <input type="checkbox" name="hobby" id="lego">
-            <label for="book">Читать</label>
-            <input type="checkbox" name="hobby" id="book">
-        </div>
+            <div>
+                <p>Что тебе нравиться?</p>
+            </div>
+            <div>
+                <label for="paint">Рисовать</label>
+                <input type="checkbox" name="hobby" id="paint">
+                <label for="ball">Играть с мячем</label>
+                <input type="checkbox" name="hobby" id="ball">
+                <label for="lego">Строить конструкторы</label>
+                <input type="checkbox" name="hobby" id="lego">
+                <label for="book">Читать</label>
+                <input type="checkbox" name="hobby" id="book">
+            </div>
 
-        <div>
-            <p>Насколько хорошо ты себя вел?</p>
-        </div>
+            <div>
+                <p>Насколько хорошо ты себя вел?</p>
+            </div>
 
-        <div>
-            <div><p>Я хорошо себя вел</p></div>
-            <div><input type="range"></div>
-            <div><p>Я очень хорошо себя вел</p></div>
-        </div>
+            <div>
+                <div>
+                    <p>Я хорошо себя вел</p>
+                </div>
+                <div><input type="range"></div>
+                <div>
+                    <p>Я очень хорошо себя вел</p>
+                </div>
+            </div>
 
-        <button type="submit">Отправить письмо Санте</button>
-    </form>
+            <button type="submit">Отправить письмо Санте</button>
+        </form>
+    </div>
 </body>
 
 </html>
