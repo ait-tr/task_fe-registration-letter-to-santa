@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Письмо Санте
+    </h1>
+    <p>
+        Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество.
+    </p>
+    <form class="form" action="greetings.html">
+        <input type="text" id="login" placeholder="Логин">
+        <input type="text" id="password" placeholder="Пароль">
+        <input type="text" id="name" placeholder="Имя">
+        <label for="gender">Пол:</label>
+        <div class="gender">
+            <input type="radio" name="gender" id="male">
+            Мальчик
+            <input type="radio" name="gender" id="female">
+            Девочка
+        </div>
+        <div>
+            <label for="birthday">День рождения:</label>
+            <input type="date" name="birthday" id="birthday">
+   
+        </div>
+        <select name="city" id="city">
+            <option value="">Место жительства</option>
+            <option value="Spb">Санкт-Петербург</option>
+            <option value="Mow">Москва</option>
+        </select>
+        <label for="colortoy">Выбери цвет своей новой игрушки:</label>
+        <div class="btn-container">
+            <div>
+                <input type="button" value="" id="top"> Шапочка
+            </div>
+            <div>
+                <input type="button" value="" id="bottom"> Костюм
+            </div>
+    
+        </div>
+        <label for="behavior">Ты был хорошим ребеном?</label>
+        <div class="behavior">
+            <input type="radio" name="behavior" id="yes">
+            Да
+            <input type="radio" name="behavior" id="no">
+            Нет
+        </div>
+        <input type="submit" value="Отправить письмо Санте"> 
+    </form>
+
+</body>
+</html>
