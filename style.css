@@ -77,3 +77,10 @@ h3 {
     background-color: chartreuse;
     padding: 10px 0px 10px 0px;
 }
+
+.greeting-page {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
