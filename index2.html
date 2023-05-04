@@ -14,8 +14,26 @@
 
     <form action="greetings2.html">
         <input type="text" placeholder="login" id="login" style="margin: 10px;" required autocomplete="off">
-        <br>
         <input type="password" placeholder="password" style="margin: 10px;">
+        <input type="email" style="margin: 10px;" placeholder="email">
+        <br>
+        <input type="radio" name="gender" id="man" value="male" required>
+        <label for="man">Boy</label>
+        <input type="radio" name="gender" value="female" id="woman">
+        <label for="woman">Girl</label>
+        <br>
+        <label for="date">Put Birthday</label>
+        <input type="date" name="data" id="date">
+        <br>
+        <select name="city" id="city">
+            <option value="" selected disable>Choose city</option>
+            <option value="berlin">Berlin</option>
+            <option value="frankfurt">Frankfurt</option>
+        </select>
+        <br>
+        <label for="color-input">Chose color:</label>
+        <input type="color" name="" id="color-input">
+        <br>
         <button type="submit">Send</button>
     </form>
 
