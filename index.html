@@ -4,67 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Santa</title>
 </head>
 <body>
     <h1>Post an Santa</h1>
+    
     <H4>Liebe Freund, erzahl uns bisschen über dich und was Wünscheschtu du dir zum Weihnachten</H4>
+    <form action="greetings.html">
+        <input id="login" type="text" placeholder="Login" required autocomplete="">
+        <br>
+        <input id="Possword" type="text" placeholder="Possword" required autocomplete="">
+        <br>
+        <input  type="email">
 
-    <div>
-        <Label for="login"></Label>
-        <input id="login" type="text" placeholder="Login">
-    </div>
+        <H4>Ihre Geschlecht</H4>
 
-    <div>
-        <Label for="Possword"></Label>
-        <input id="Possword" type="text" placeholder="Possword">
-    </div>
+        <input type="radio" name="gender" id="input-male" value="male" required>
+        <label for="male">Mann</label>
 
-    <div>
-        <Label for="name"></Label>
-        <input id="name" type="text" placeholder="Name">
-    </div>    
+        <input type="radio" name="gender" id="input-female" value="fermale" required>
+        <label for="fermale">Frau</label>
 
-    <H4>Ihre Geschlecht</H4>
+        <H4>Geburstdatum:</H4>
 
-    <label for="male">Mann</label>
-    <input type="radio" name="gender" id="male">
+        <Label for="data-input"></Label>
+        <input type="date" id="data-input">
 
-    <label for="fermale">Frau</label>
-    <input type="radio" name="gender" id="female">
 
-    <H4>Geburstdatum:</H4>
-    <div>
-        <Label for="Datum"></Label>
-        <input id="Possword" type="text" placeholder="TT.MM.JJJJ">
-    </div>
-
-    <H4>Stadt:</H4>
-    <form>
-        <label for="city"></label>
-        <input type="text" id="city" list="cities" name="city">
-        <datalist id="cities">
-            <option value="Bochum">
-            <option value="Düsseldorf">
-            <option value="Koln">
-            <option value="Bonn">
-            <option value="Dortmund">
-        </datalist>
+        <H4>Stadt:</H4>
+        <select name="city" id="city">
+            <option value=""select disabled>Wahlen sie Stadt</option>
+            <option value="bochum">Bochum</option>
+            <option value="dortmund">Dortmund</option>
+            
+        </select>
+        <label for="">Wahlen sie Farbe</label>
+        <input type="color" id="input-color">
+        <button type="submit">Senden an Santa</button>
     </form>
-</form>
-<h4>Such die Farbe aus von neuen spielzeug</h4>
-<div><input type="color" name="" id="blau">Blau</div>
-<div><input type="color" name="" id="blau">Rgot</div>
-<h4>Warst du ein gutes Kind, dieses jahr? </h4>
-<label for="">ja</label>
-<input type="radio">
-<label for="">nein</label>
-<input type="radio">
-<form action="./greetings.html">
-    <h2>Hast du alles ausgefühlt ?</h2>
-    <div><button type="submit">Post senden an Santa</button></div>
-</form>
-</body>
-</html>
 </body>
 </html>
