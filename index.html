@@ -20,13 +20,13 @@
                 <label for="login">Введите логин</label>
             </div>
             <div class="inp">
-                <input type="text" placeholder="Ваш логин" id="login">
+                <input type="text" placeholder="Ваш логин" name="login" id="login" autocomplete="on">
             </div>
             <div class="lab2">
                 <label for="costume">Цвет твоего костюма</label>
             </div>
             <div class="inp">
-                <input type="color" name="" id="costume" value="#e66465">
+                <input type="color" name="costume" id="costume" value="#e66465">
             </div>
         </div>
         <div class="fl">
@@ -34,13 +34,13 @@
                 <label for="pass">Введите пароль</label>
             </div>
             <div class="inp">
-                <input type="password" name="pass" id="">
+                <input type="password" name="pass" id="" required>
             </div>
             <div class="lab2">
                 <label for="hat">Цвет твоей шапочки</label>
             </div>
             <div class="inp">
-                <input type="color" name="" id="hat" value="#f6b73c">
+                <input type="color" name="hat" id="hat" value="#f6b73c">
             </div>
         </div>
         <div class="fl">
@@ -54,7 +54,7 @@
                 <label for="toy">Выбери игрушку</label>
             </div>
             <div class="inp">
-                <select name="" id="toy">
+                <select name="" selected id="toy">
                     <option disabled>Выбери игрушку</option>
                     <option>Чебурашка</option>
                     <option>Машина</option>
@@ -68,7 +68,7 @@
                 <p>Ваш пол</p>
             </div>
             <div class="inp">
-                <input type="radio" name="действие" id="male" value="male" checked>
+                <input type="radio" name="gender" id="male" value="male" checked>
                 <label for="male">мальчик</label>
                 <input type="radio" name="gender" id="female">
                 <label for="female">девочка</label>
