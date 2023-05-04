@@ -10,9 +10,51 @@
 
 <body>
     <h2>Форма регистрации</h2>
-    <h3>Заполните поля</h3>
-    <p>тут будет форма</p>
-    <a href="./greetings.html">Greetings</a>
+    <form action="./greetings.html">
+        <div class="login">
+            <input type="text" placeholder="Логин">
+            <input type="password" placeholder="Пароль">
+            <input type="text" placeholder="Имя">
+        </div>
+        <h3>Пол:</h3>
+        <div class="gender">
+            <input type="radio" name="gender" id="boy">
+            <label for="boy">Мальчик</label>
+            <input type="radio" name="gender" id="girl">
+            <label for="girl">Девочка</label>
+        </div>
+        <div class="birthday">
+            <label for="date">День рождения:</label>
+            <input type="date" name="" id="date">
+        </div>
+        <div class="city">
+            <select name="city" id="city">
+                <option value="">Питер</option>
+                <option value="">Москва</option>
+                <option value="">Волгорад</option>
+                <option value="">Нижний Новгород</option>
+            </select>
+        </div>
+
+        <h3>Выбери цвет своей новой игрушки:</h3>
+        <div class="toycolor">
+            <input type="color" name="hat-colot" id="hat-colot" value="#fa0000">
+            <label for="hat-color">Шапочка</label>
+            <input type="color" name="jacket-colot" id="jacket-colot" value="#faaa00">
+            <label for="jacket-color">Костюм</label>
+        </div>
+        <h3>Ты был хорошим ребенком?</h3>
+        <div class="good-bad">
+            <input type="radio" name="good" id="yes">
+            <label for="yes">Да</label>
+            <input type="radio" name="good" id="no">
+            <label for="no">Нет</label>
+        </div>
+
+        <button>Отправить письмо Санте</button>
+
+
+
 </body>
 
 </html>
