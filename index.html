@@ -15,10 +15,25 @@
         <input type="text" placeholder="логин" id="login" style="margin: 10px;" required >
         <br>
         <input type="password" placeholder="пароль" style="margin: 10px;" id="passwort" required>
-        <input type="radio" id="input-male">
+        <br>
+        <input type="radio" id="input-male" name="gender" style="margin: 10px;" required>
         <label for="input-male">Мальчик</label>
-        <input type="radio" id="input-women">
+        <input type="radio" id="input-women" name="gender" style="margin: 10px;">
         <label for="input-women">Девочка</label>
+        <br>
+        <label for="date-input">Дата рождения</label>
+        <br>
+        <input type="date" name="" id="date-input" style="margin: 10px;">
+        <br>
+        <select name="city" id="city">
+            <option value="berlin">Berlin</option>
+            <option value="köln">Köln</option>
+            <option value="frankfurt">Frankfurt</option>
+            <option value="baden-baden">Baden-Baden</option>
+        </select>
+        <br>
+        <label for="color-input">Цвет</label>
+        <input type="color" id="color-input">
         <button type="submit">Отправить письмо Санте</button>
     </form>
 
