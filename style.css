@@ -16,3 +16,30 @@ body{
         background-position: 80% 0%;
     }
 }
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #287a9d;
+    color: #ffffff;
+}
+h1, h4, h3{
+color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+a{
+ color: #ffffff;
+    text-decoration: none;
+    margin-top: 15px;
+}
+a:hover{
+    color: aquamarine;
+}
+.congrat{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
