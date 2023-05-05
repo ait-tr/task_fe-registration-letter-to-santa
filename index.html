@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="style icon" href="tab-icon.ico">
+    <title>Письмо Санте</title>
+</head>
+
+<body>
+    <h1 style="margin-left: 10px;">Письмо Cанте</h1>
+
+    <p style="font-weight: bold;margin-left: 10px;">Дорогой друг, не стисняйся и расскажи Санте о том
+        ,кто ты какой подарок ты хочешь получить на Рождество.</p>
+    <form action="greetings.html">
+        <input type="text" placeholder="Логин" id="login" style="margin: 10px;" required autocomplete="username">
+        <br>
+        <input type="password" placeholder="Пароль" id="password" style="margin: 10px;" required>
+        <br>
+        <input type="text" placeholder="Имя" id="name" style="margin: 10px;" required>
+
+        <p style="margin: 10px;">Пол:</p>
+        <input type="radio" name="gender" id="male" value="male" style="margin-left: 10px;" required >
+        <label for="male" style="font-weight: bold;">Мальчик</label>
+        <input type="radio" name="gender" id="femele" value="femele" required>
+        <label for="femele" style="font-weight: bold;">Девочка</label>
+        <br>
+        <label for="date" style="margin-top: 10px;margin-left: 10px;font-weight: bold;" >День рождения:</label>
+        <input type="date" name="date" style="margin-top: 10px;margin: 10px;">
+        <br>
+        <select name="city" id="city" style="margin-top: 10px;margin: 10px;">
+
+            <option value="defauld" selected disabled>Санк-петербург</option>
+            <option value="hambut">berlin</option>
+            <option value="potsdam">potsdam</option>
+        </select>
+        <br>
+        <h4 style="margin: 10px;">Выберете цвет своей новой игрушки:</h4>
+        <br>
+        <input type="color" id="color-input" style="margin-left: 10px;">
+        <label for="color-input" style=" font-weight: bold;">Шапочка</label>
+        <br>
+        <input type="color" id="color-input" style="margin-left: 10px;">
+        <label for="color-input" style="font-weight: bold;">Костюм</label>
+        
+
+        <h4 style="margin-left: 10px;">Ты был хорошим ребенком?</h4>
+        
+        <input type="radio"  name="answer" value="yes" id="yes" style="margin-left: 10px;" required>
+        <label for="yes" style="font-weight: bold;">Да</label>
+        <input type="radio"  name="answer" value="no" id="no" required >
+        <label for=" no" style="font-weight: bold;">Нет</label>
+
+        <br>
+        <button type="submit" autofocus style="margin: 10px;">Отправить письмо Санте</button>
+    </form>
+
+</body>
+
+</html>
