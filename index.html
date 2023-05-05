@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <H1>Письмо Санте</H1>
+    <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты, что ты хочешь получить на Рождество</p>
+    <form class="form" action="greetings.html">
+        <input class="intput-text" type="text" placeholder="Логин" required autocomplete="of">
+        <input class="intput-text" type="password" placeholder="Пароль" required>
+        <input class="intput-text" type="text" placeholder="Имя">
+        <p>Пол:</p>
+        <div class="check-gend">
+            <div>
+                <input type="radio" name="gender" id="boy">
+                <label for="boy">Мальчик</label>
+
+            </div>
+
+            <div>
+                <input type="radio" name="gender" id="girl">
+                <label for="girl">Девочка</label>
+            </div>
+        </div>
+        <div сlass="birthday">
+            <label for="date-birthday" style="margin-right: 10px;">Дата рождения:</label>
+            <input type="date" name="" id="date-birthday">
+            <div>
+                <select>
+                    <option value="1">Харьков</option>
+                    <option value="2">Луганск</option>
+                    <option value="3">Киев</option>
+                </select>
+            </div>
+        </div>
+        <div class="toys">
+            <p>Выбери цвет своей новой игрушки</p>
+            <div>
+               
+                <input class = "input-color" type="color" id="color-cap" value="#ff0000">
+                <label class="label-toys" for="color-cap">Шапка</label>
+            </div>
+            <div>
+                
+                <input class = "input-color" type="color" id="color-costume" value="rgb(10, 50, 102)">
+                <label class="label-toys" for="color-costume">Костюм</label>
+            </div>
+        </div>
+        <p>Ты был хорошим ребенком?</p>
+        <div class="question">
+            <div>
+                <label for="yes">Да</label>
+                <input type="radio" name="choice" id="yes">
+            </div>
+            <div>
+                <label for="no" style="margin-left: 10px;">Нет</label>
+                <input type="radio" name="choice" id="no">
+            </div>
+        </div>
+        <input type="submit" value="Отправить письмо Санте">
+    </form>
+    </div>
+</body>
+
+</html>
