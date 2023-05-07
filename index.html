@@ -12,7 +12,7 @@
 <body style="background-color: #697088;">
     <strong><font size="6">Письмо Санте</font></strong>
     <p>Дорогой друг, не стесняйся и расскажи Санет о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
-    <form action="">
+    <form action="greetings.html" method="get">
         <div class="groupe">
             <input type="text" placeholder="Логин" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
         </div>
@@ -33,9 +33,33 @@
             <label for="birthdate">День рождения:</label>
             <input type="date" name="birthdate" id="birthdate" placeholder="дд.мм.гггг" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
         </div>
-        <div class="groupe">Цвет игрушки</div>
-        <div class="groupe">Ты был хорошим ребёнком?</div>
-        <div class="groupe">Отправить письмо Санте</div>
+        <div class="groupe">
+            <select name="city" id="city" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+                <option value="Лондон">Лондон</option>
+                <option value="Берлин">Берлин</option>
+                <option value="Париж">Париж</option>
+            </select>
+        </div>
+        <div class="groupe">
+            <p>Выбери цвет своей новой игрушки:</p>
+            <input type="color" name="hat-color" id="hat-color" value="#F08080">
+            <label for="hat-color" >Шапочка</label>
+            <br>
+            <input type="color" name="costume-color" id="costume-color" value="#F5A555">
+            <label for="costume-color">Костюм</label>
+        </div>
+        <div class="groupe">
+            <p>Ты был хорошим ребёнком?</p>
+            <input type="radio" name="good-kid" id="yes" value="ДА" checked>
+            <label for="yes">ДА</label>
+            <input type="radio" name="good-kid" id="no" value="НЕТ" style="margin-bottom: 20px;">
+            <label for="no">НЕТ</label>
+        </div>
+        <div class="groupe">
+            <button type="submit" style="background-color: rgb(64, 91, 140)">
+                Отправить письмо Санте
+            </button>
+        </div>
     </form>
 
 </body>
