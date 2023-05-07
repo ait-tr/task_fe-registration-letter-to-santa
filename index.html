@@ -10,31 +10,33 @@
 </head>
 
 <body style="background-color: #697088;">
-    <strong><font size="6">Письмо Санте</font></strong>
-    <p>Дорогой друг, не стесняйся и расскажи Санет о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
+    <h1>
+        <p>Письмо Санте</p>
+        <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
+    </h1>
     <form action="greetings.html" method="get">
         <div class="groupe">
-            <input type="text" placeholder="Логин" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+            <input type="text" placeholder="Логин">
         </div>
         <div class="groupe">
-            <input type="password" placeholder="Пароль" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+            <input type="password" placeholder="Пароль">
         </div>
         <div class="groupe">
-            <input type="text" placeholder="Имя" style="margin-bottom: 5px; background-color: rgb(64, 91, 140);">
+            <input type="text" placeholder="Имя">
         </div>
         <div class="groupe">
             <p>Пол</p>
             <label for="male">Мальчик</label>
             <input type="radio" name="sex" id="male" value="Мальчик" checked>
             <label for="female">Девочка</label>
-            <input type="radio" name="sex" id="female" value="Девочка" style="margin-bottom: 20px;">
-        </div >
-        <div class="groupe">
-            <label for="birthdate">День рождения:</label>
-            <input type="date" name="birthdate" id="birthdate" placeholder="дд.мм.гггг" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+            <input type="radio" name="sex" id="female" value="Девочка">
         </div>
         <div class="groupe">
-            <select name="city" id="city" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+            <label for="birthdate">День рождения:</label>
+            <input type="date" name="birthdate" id="birthdate" placeholder="дд.мм.гггг">
+        </div>
+        <div class="groupe">
+            <select name="city" id="city">
                 <option value="Лондон">Лондон</option>
                 <option value="Берлин">Берлин</option>
                 <option value="Париж">Париж</option>
@@ -43,7 +45,7 @@
         <div class="groupe">
             <p>Выбери цвет своей новой игрушки:</p>
             <input type="color" name="hat-color" id="hat-color" value="#F08080">
-            <label for="hat-color" >Шапочка</label>
+            <label for="hat-color">Шапочка</label>
             <br>
             <input type="color" name="costume-color" id="costume-color" value="#F5A555">
             <label for="costume-color">Костюм</label>
@@ -52,13 +54,15 @@
             <p>Ты был хорошим ребёнком?</p>
             <input type="radio" name="good-kid" id="yes" value="ДА" checked>
             <label for="yes">ДА</label>
-            <input type="radio" name="good-kid" id="no" value="НЕТ" style="margin-bottom: 20px;">
+            <input type="radio" name="good-kid" id="no" value="НЕТ">
             <label for="no">НЕТ</label>
         </div>
         <div class="groupe">
-            <button type="submit" style="background-color: rgb(64, 91, 140)">
-                Отправить письмо Санте
-            </button>
+            <center>
+                <button type="submit">
+                    Отправить письмо Санте
+                </button>
+            </center>
         </div>
     </form>
 
