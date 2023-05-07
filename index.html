@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="grey">
-    
+
+<body style="background-color: #697088;">
+    <strong><font size="6">Письмо Санте</font></strong>
+    <p>Дорогой друг, не стесняйся и расскажи Санет о том, кто ты и о том, что ты хочешь получить на Рождество.</p>
+    <form action="">
+        <div class="groupe">
+            <input type="text" placeholder="Логин" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+        </div>
+        <div class="groupe">
+            <input type="text" placeholder="Пароль" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+        </div>
+        <div class="groupe">
+            <input type="text" placeholder="Имя" style="margin-bottom: 5px; background-color: rgb(64, 91, 140);">
+        </div>
+        <div class="groupe">
+            <p>Пол</p>
+            <label for="male">Мальчик</label>
+            <input type="radio" name="sex" id="male" value="Мальчик" checked>
+            <label for="female">Девочка</label>
+            <input type="radio" name="sex" id="female" value="Девочка" style="margin-bottom: 20px;">
+        </div >
+        <div class="groupe">
+            <label for="birthdate">День рождения:</label>
+            <input type="date" name="birthdate" id="birthdate" placeholder="дд.мм.гггг" style="margin-bottom: 15px; background-color: rgb(64, 91, 140);">
+        </div>
+        <div class="groupe">Цвет игрушки</div>
+        <div class="groupe">Ты был хорошим ребёнком?</div>
+        <div class="groupe">Отправить письмо Санте</div>
+    </form>
+
 </body>
+
 </html>
