@@ -66,3 +66,7 @@ button {
     border-radius: 5px;
     box-shadow: 3px 3px 4px;
 }
+
+input, select, button {
+    cursor: pointer;
+  }
