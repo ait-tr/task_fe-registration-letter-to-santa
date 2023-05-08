@@ -1,16 +1,18 @@
 body {
-    font-family:fantasy;
-    background-color:darkgray;
+    font-family: fantasy;
+    background-color: darkgray;
 }
 
 h1 p:first-child {
     font-size: 30px;
     font-weight: bold;
 }
+
 h1 p {
     font-size: 20px;
     font-weight: bold;
-} 
+}
+
 h1 {
     cursor: help;
     border-bottom: 1px solid #b5d54d;
@@ -18,7 +20,7 @@ h1 {
 
 form {
     margin: 0 auto;
-    background:hsl(211, 37%, 47%);
+    background: hsl(211, 37%, 47%);
     width: 400px;
     height: 510px;
     padding: 10px;
@@ -35,16 +37,16 @@ label {
 }
 
 input {
-background-color: #c2da75;
-border: none;
-border-radius: 5px;
-box-shadow: 3px 3px 4px;
+    background-color: #c2da75;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px;
 }
 
-select, button {
-background-color: #c2da75;
-border: none;
-border-radius: 5px;
-box-shadow: 3px 3px 4px;
+select,
+button {
+    background-color: #c2da75;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px;
 }
-
