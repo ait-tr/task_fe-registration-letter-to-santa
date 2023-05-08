@@ -1,6 +1,21 @@
 body {
     font-family: fantasy;
     background-color: darkgray;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://proslang.ru/wp-content/uploads/2020/01/image3-8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 h1 p:first-child {
@@ -16,13 +31,14 @@ h1 p {
 h1 {
     cursor: help;
     border-bottom: 1px solid #b5d54d;
+    color: hsl(211, 78%, 25%);
 }
 
 form {
     margin: 0 auto;
-    background: hsl(211, 37%, 47%);
+    background: hsl(211, 59%, 31%);
     width: 400px;
-    height: 510px;
+    height: 500px;
     padding: 10px;
     box-shadow: 3px 3px 10px;
 }
