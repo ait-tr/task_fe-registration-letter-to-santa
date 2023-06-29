@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            margin: 10px 10px;
+        }
+        div{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/greetings.html" method="post">
+    <h1>
+        Письмо Санте
+    </h1>
+    <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, 
+        что ты хочешь получить на Рождество</p>
+    <form method="post" id="signUp-form">
+        <div>
+            <label>
+                <input type="Login" placeholder="Логин">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="Password" placeholder="Пароль">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="Name" placeholder="Имя">
+            </label>
+        </div>
+        <div>
+            Пол
+        </div>
+        <div>
+            <input id="gender1" type="radio" name="gender" value="boy">
+            <label for="gender1">Мальчик</label>
+            <input id="gender2" type="radio" name="gender" value="girl">
+            <label for="gender2">Девочка</label>
+        </div>
+        <div>
+            <label for="birth_date">Дата рождения</label>
+            <input type="date" id="birth_date" name="birthDate"
+            value="2000-01-01"
+            min="1900-01-01" max="2020-01-01">
+        </div>
+        <div>
+            <select name="City" form="signUp-form">
+                    <option value="Saint Petersburg">Санкт-Петербург</option>
+                    <option value="Moscow">Москва</option>
+                    <option value="Berlin">Берлин</option>    
+            </select>
+        </div>
+        <div>
+            <label for="color_of_toy">Выбери цвет своей новой игрушки:</label>
+        </div>
+        <div>
+            <button type="color1" id="color_of_toy" name="color1"
+             style="width: 50px; height: 30px; background-color: rgb(186, 91, 91); 
+             border: solid rgb(220, 219, 218) 5px;"> 
+            </button>
+               <label for="color1">Шапочка</label><br>
+               <button type="color2" id="color_of_toy" name="color2"
+               style="width: 50px; height: 30px; background-color: rgb(227, 194, 104); border: solid rgb(220, 219, 218) 5px;">
+               </button>
+               <label for="color2">Костюм</label>
+        </div>
+        Ты был хорошим ребенком?
+        <div>
+            <input type="radio" id="behavior1" name="behavior" value="Yes">
+            <label for="behavior1">Да</label>
+            <input type="radio" id="behavior2" name="behavior" value="No">
+            <label for="behavior2">Нет</label>
+        </div>
+        <input id="send-letter" type="submit" value="Отправить письмо Санте">
+    </form>
+</body>
+</html>
