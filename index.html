@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Письмо Деду Морозу</title>
+</head>
+<body>
+    <h1>Письмо Деду Морозу</h1>
+    <h3>Дорогой друг, не стесняйся и расскажи Дедушке Морозу о себе и какие подарки ты ждешь в эту новогоднюю ночь </h3>
+<form method="post" id="signUp-form" action="greetings.html">
+    <div>
+        <label>
+            <span class="required"></span>
+            <input required type="login" placeholder="Логин">
+        </label>
+    </div>
+       <div>
+        <label>
+            <span class="required"></span>
+            <input required type="password" placeholder="Пароль">
+        </label>
+    </div>
+    <div>
+        <label>
+            <span class="required"></span>
+            <input required type="firstName" placeholder="Имя">
+        </label>
+    </div>
+        Пол:
+    <div>
+        <input id="male" type="radio" name="male" value="мальчик">
+        <label for="male">мальчик</label>
+        <input id="female" type="radio" name="female" value="девочка">
+        <label for="female">девочка</label>
+    </div>
+    <div>
+        <label for="birth_date">Дата рождения</label>
+        <input type="date" id="birth_date" name="birthDate"
+               value="дд.тт.гггг"
+               min="01-01-2000" max="01-01-2022">
+    </div>
+    <div>
+        <label>
+            <select name="contact" form="signUp-form">
+                <option value="Russia">Россия</option>
+                <option value="Belarus">Беларусь</option>
+                <option value="Azerbaijan">Ажербайджан</option>
+                <option value="Kazakhstan">Казахстан</option>
+            </select>
+        </label>
+    </div>
+    Выбери цвет своей новой игрушки:
+    <div>
+        <input type="color" id="cap_color" name="color"value="#ff0000">
+        <label for="cap_color">шапочка</label>
+    </div>
+    <div>
+        <input type="color" id="suit_color" name="color" value="#ffff00">
+        <label for="suit_color">костюм</label>
+    </div>
+    Ты был хорошим ребенком?
+    <div>
+        <input type="checkbox" id="agree" name="agree_yes" value="Yes">
+        <label for="agree1">Да</label>
+        
+        <input type="checkbox" id="disagree" name="disagree_No" value="No">
+        <label for="agree2">Нет</label>
+    </div>
+    <div>
+    <label for="funny_field1" style="background-color: lightblue;">Самый смешной предмет, который ты хочешь получить:</label>
+    <input type="text" id="funny_field1" name="funnyField1">
+</div>
+<div>
+    <label for="funny_field2">Самая смешная шутка, которую ты знаешь:</label>
+    <textarea id="funny_field2" name="funnyField2" style="background-color: lightgreen;"></textarea>
+</div>
+    <input type="submit" value=" Отправить Деду Морзу">
+   
+
+</form>    
+</body>
+</html>
