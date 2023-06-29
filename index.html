@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form action="greetings.html" method="get">
+        <ol> My dear friend! </ol>
+        <i>
+            <b>
+
+                <div>Christmas is coming soon, no matter how old you are, you must believe in magic.</div>
+                <div>This year, Santa Claus will be waiting for a letter from you, just like in all the previous years.
+                    <div>And now, go ahead and register, and I will help you write your wish to him.
+                        Merry Christmas!</div>
+            </b>
+            </div></i>
+        <br>
+
+
+        <div>
+
+
+            <label>
+                Email<span class="required">*</span>
+                <input required type="email" placeholder="Введите email...">
+            </label>
+        </div>
+        <div>
+            <label>
+                Password<span class="required">*</span>
+                <input required type="password" placeholder="Введите пароль">
+            </label>
+        </div>
+        <br>
+        <p>Santa wants to know your birthday:</p>
+        <div>
+            <input type="date" id="birth_date" name="birthDate" value="2015-01-01" min="1900-01-01" max="2021-01-01">
+        </div>
+        <div>
+            <p>
+                Are you boy or girl?
+            <div><input id="gender" type="radio" name="gender" value="boy-girl">
+                <label for="gender">boy</label>
+                <input id="gender" type="radio" name="gender" value="boy-girl">
+                <label for="gender">girl</label>
+            </div>
+
+            </p>
+
+
+
+            <label>
+                <div>
+                    Name<span class="required">*</span>
+                    <input required type="name" placeholder="enter your Name...">
+                </div>
+                <div>
+                    Surname<span class="required">*</span>
+                    <input required type="surname" placeholder="enter your Surname...">
+                </div>
+                <br>
+                <div>
+                    Country <span class="required">*</span>
+                    <input required type="Country" placeholder="enter your Country..">
+                </div>
+                City <span class="required">*</span>
+                <input required type="City" placeholder="enter your City..">
+
+                <p> <i>
+                        <b>Great! Now Santa will be able to find you... <br>
+                            Did you behave well this year? </b> <br>
+                        <input id="answerYes" type="radio" name="yes">
+                        <label for="answerYes">Yes</label>
+                        <input id="answerNor" type="radio" name="No">
+                        <label for="answerNor">No</label>
+        </div> </i>
+        </p>
+        <i>
+            <b>
+                The special moment has come, and now you will be writing a letter to Santa. <br> Write to him your kind
+                wishes and about your achievements this year. <br> He will be delighted. Tell him what you love the most
+                and
+                what you dream about. <br> Magic is bound to happen! <br> <br>
+                <textarea placeholder="write your letter..."></textarea>
+            </b>
+        </i>
+        <div> <input type="submit" value="Send letter">
+
+        </div>
+        <br>
+
+
+        <img src="./img/santa-claus-reading-letters-ftr.jpg" alt="" width="400px">
+
+</html>
