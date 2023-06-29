@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Santa form</title>
+    <style>
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/greetings.html" method="post" id="santaForm">
+        <div>
+            <h2>Letter to Santa</h1>
+        </div>
+        <div>
+            Dear friend, don't be shy and tell Santa who and what you want for Christmas.
+        </div>
+        <br>
+        <label>
+            <div>
+                <input required type="text" minlength="4" maxlength="15" placeholder="Login">
+                <span class="required">*</span>
+            </div>
+            <br>
+            <div>
+                <input required type="password" minlength="8" placeholder="Password min 8 char">
+                <span class="required">*</span>
+            </div>
+            <br>
+            <div>
+                <input type="text" placeholder="Your name">
+            </div>
+        </label>
+        <br>
+        <div>
+            Gender:
+        </div>
+        <br>
+        <div>
+            <input id="boy" type="radio" name="gender" value="Boy">
+            <label for="boy">boy</label>
+            <input id="girl" type="radio" name="gender" value="girl">
+            <label for="girl">girl</label>
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" type="date" name="birthday" min="1900-01-01" max="2020-01-01">
+        </div>
+        <br>
+        <div>
+            <select name="city" form="santaForm">
+                <option value="Sanct-Piterburg">Sanct-Piterburg</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Wetzlar">Wetzlar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Choose the colour of your new toy:
+        </div>
+        <div>
+
+            <br>
+            <input type="color" id="hatColor" name="color" value="#e66465">
+            <label for="hatColor">Hat</label>
+        </div>
+        <div>
+            <input type="color" id="suitColor" name="color" value="#dcd618">
+            <label for="suitColor">Suit</label>
+        </div>
+        <br>
+        <div>
+            Were you a good child? 
+            <br>
+        </div>
+        <div>
+            <input id="goodChildYes" type="radio" name="isGoodchild" value="yes">
+            <label for="goodChildYes">Yes</label>
+            <input id="goodChildNo" type="radio" name="isGoodchild" value="no">
+            <label for="goodChildNO">No</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="sentForm" value="Sent the letter to Santa"> 
+                </div>
+    </form>
+</body>
+
+</html>
