@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <!-- <form method="post" id="registr-form"> -->
+    <form action="greetings.html" method="post">
+        <h1>Письмо Санте</h1>
+        <h4>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество.</h4>
+        <img class="img" src="./images/gifts.jpg" alt="">
+        <div>
+    <label>
+        <span class="required">*</span>
+        <input required type="login" placeholder="Логин" >
+    </label>
+    <br>
+        </div>
+    <label>
+        <span class="required">*</span>
+        <input required type="password" placeholder="password" >
+    </label>
+    <br>
+        </div>
+    <label>
+        <span class="required">*</span>
+        <input required type="firstName" placeholder="Имя" >
+    </label>
+        </div>
+        <h4>Пол:</h4>
+        <div>
+                <input id="gender1" type="radio" name="gender" value="Мальчик">
+                <label for="gender1">Мальчик</label>
+                <input id="gender2" type="radio" name="gender" value="Девочка">
+                <label for="gender2">Девочка</label>
+        </div>
+        <div class="birthDate">
+            <label for="birth_date">Дата рождения</label>
+            <input type="date" id="birth_date" name="birthDate"
+            value="2000-01-01"
+            min="1900-01-01" max="2020-01-01">
+        </div>
+        
+        <div class="city">
+            <label for="city">*
+                <select name="city" form="registr-form">
+                <option value="dresden">Дрезден</option>
+                <option value="berlin">Берлин</option>
+                <option value="freital">Фрайтль</option>
+                <option value="radeburg">Радебург</option>
+                <option value="maißen">Майсен</option>
+                </select>
+            </label>
+        </div>
+        <h4>Выбери цвет своей новой игрушки</h4>
+        <div>
+            <input type="color" id="color-toy1" name="color" value="#e66465">
+                        <label for="color-toy1">Шапочка</label>
+            <br>
+            <input type="color" id="color-toy2" name="color" value="#55ec4a">
+            <label for="color-toy2">Костюм</label>
+            <br>
+            <input type="color" id="color-toy3" name="color" value="#193b9f">
+            <label for="color-toy3">Игрушка</label>
+        </div>
+        <h4>Ты был хорошим ребенком?</h4>
+        <div>
+                <input id="good1" type="radio" name="good" value="Да">
+                <label for="good1">Да</label>
+                <input id="bad" type="radio" name="good" value="Нет">
+                <label for="bad">Нет</label>
+        </div>
+        <h4>У тебя есть сестры или братья?</h4>
+        <div>
+                <input id="sist-broth1" type="radio" name="sist-broth" value="Да">
+                <label for="sist-broth1">Да</label>
+                <input id="sist-broth2" type="radio" name="sist-broth" value="Нет">
+                <label for="sist-broth2">Нет</label>
+        </div>
+        <h4>Что тебе больше нравиться?</h4>
+        <div>
+            <div class="toys">
+                <input id="toys0" type="radio" name="toys" value="машинки">
+                <label for="toys0">Машинки</label>
+                <input id="toys1" type="radio" name="toys" value="куклы">
+                <label for="toys1">Куклы</label>
+                <input id="toys2" type="radio" name="toys" value="животные">
+                <label for="toys2">Животные</label>
+                <input id="toys3" type="radio" name="toys" value="сладости">
+                <label for="toys3">Сладости</label>
+        </div>
+        </div>
+        <label>
+        <input type="submit" value="Отправить письмо Санте">
+        
+        </label>
+
+    </form>
+
+</body>
+</html>

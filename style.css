@@ -1,0 +1,41 @@
+.login, .password, .name {
+    margin-bottom: 10px;
+}
+.birthDate {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size:medium;
+    font: 20px sans-serif;
+}
+a {
+    color: rgb(17, 4, 4);
+    width: 200px;
+    height: 30px;
+    background-color: #accee2; 
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(239, 16, 16, 0.925);
+}
+#login:hover {
+    color: black;
+}
+.required {
+    color: rgb(27, 223, 49);
+}
+.img {
+    width: 400px;
+}
+.toys {
+    color: rgb(21, 19, 24);
+    width: 400px;
+    height: 30px;
+    background-color: #b3dd65;
+    margin-top: 2px;
+}
+
