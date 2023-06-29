@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+</head>
+<body>
+
+    <form action="greetings.html" method="get">
+        <label for="login">
+        Логин
+            <input type="text" name="login" placeholder="Введите логин...">
+        </label>
+        <br>
+
+        <label for="password">
+        Пароль
+            <input type="text" name="password" placeholder="Введите пароль...">
+        </label>
+        <br>
+
+        <label for="name">
+        ФИО
+            <input type="text" name="name" placeholder="Введите ФИО...">
+        </label>
+        <br>
+
+        
+        <select name="gender" form="signUp-form">
+            <option value="male">Мужской</option>
+            <option value="female">Женский</option>
+        </select>  
+        </label> 
+        <br>
+        
+        <label for="birthdate">
+        Дата рождения
+            <input type="date" id="birthdate" name="birthdate" 
+            value="2000-01-01"
+            min="1900-01-01"
+            max="2020-01-01">
+        </label>
+        <br>
+
+        
+        Страна проживания
+        <div>
+            <input id="country1" type="radio" name="country" value="USA">
+            <label for="country1">USA</label>
+        </div>
+        <div>
+            <input id="country2" type="radio" name="country" value="UK">
+            <label for="country2">UK</label>
+        </div>
+        <div>
+            <input id="country3" type="radio" name="country" value="France">
+            <label for="country3">USA</label>
+        </div>
+        <br>
+
+        <input type="submit" value="Зарегистрироваться">
+
+    </form>
+</body>
+</html>
