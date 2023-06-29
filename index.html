@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        div{
+            padding: 5px;
+        }
+    </Style>
+</head>
+<body>
+   
+<form method="post" action="greetings.html" id="register-form"></form>
+ <h1>Santa's letter</h1>
+ <h3>Dear friend, don't be shy and Santa, about who you are and what you want to get for Christmas.</h3>
+    <div>
+        <label>
+            <span class="required"></span>
+            <input required type="login" placeholder="Login">
+        </label>
+    </div>
+    <div>
+        <label>
+            <span class="required"></span>
+            <input required type="password" placeholder="Password">
+        </label>
+    </div>
+    <div>
+        <label>
+           <span class="required"></span>
+            <input required type="name" placeholder="Name">
+        </label>
+       
+    </div>
+    <h4>Gender:</h4>
+    <div>
+    <input id="gend1" type="radio" name="gender" value="Male">
+    <label for="gend1">Male</label>
+    <input id="gend2" type="radio" name="gender" value="Female">
+    <label for="gend2">Female</label>
+</div>
+<div>
+    Birthday date
+    <input type="date" id="birth_date" name="birthDate"
+           value="2000-01-01"
+           min="1900-01-01" max="2020-01-01">
+    <label for="birth_date"></label>
+
+</div>
+<div>
+    <label>
+        
+        <select name="country" form="select-form">
+            <option value="phone">Germany</option>
+            <option value="email">Italy</option>
+            <option value="whatsapp">France</option>
+            <option value="whatsapp">Portugal</option>
+            <option value="whatsapp">Moldova</option>
+            <option value="whatsapp">Austria</option>
+            <option value="whatsapp">China</option>
+        </select>
+    </label>
+</div>
+<h4>Choose the color of the toy</h4>
+<div>
+    <input type="color" id="favorite_color" name="color"
+           value="#e66465">
+    <label for="favorite_color">Cape</label>
+</div>
+<div>
+    <input type="color" id="favorite_color" name="color"
+           value="#00eeff">
+    <label for="favorite_color">Costume</label>
+</div>
+
+<h4>You was a good children?</h4>
+<div>
+    <input type="radio" id="yes" name="good_child" value="Yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="good_child" value="No">
+    <label for="no">No</label>
+</div>
+<input type="submit" value="Send letter to Santa">
+    </form>
+</body>
+</html>
