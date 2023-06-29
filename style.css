@@ -1,0 +1,36 @@
+h1{
+    font-family: serif 
+}
+p{
+    font-family:serif;
+    
+}
+.required{
+    color: red;
+}
+#login{
+    margin: 10px ;
+}
+#password{
+    margin: 10px;
+}
+#name{
+margin: 12px
+}
+#gender{
+    margin: 5px;
+}
+#birthDate{
+    margin: 5px; ;
+}
+#city{
+    margin: 10px 5px;
+}
+#toyColor{
+    margin:5px ;
+   
+}
+#behavior{
+    margin: 10px; ;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter for Santa</title>
+    <link rel="stylesheet" href="greetings.html" />
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+    <h1>Письмо Санте</h1>
+    <p>
+      Дорогой друг, не стесняйся и расскажы Санте о том кто ты и о том, что ты
+      хочеш получить на Рождество
+    </p>
+    <form  <form action="greetings.html" method="get"> 
+    <div id="login">
+     <label>
+        <span class="required">*</span>
+        <input required type="login" name="login"  placeholder="Логин">
+     </label>
+    </div>
+    <div id="password">
+     <label> 
+        <span class="required">*</span>     
+        <input required type="password" name="password" placeholder="Пароль">
+     </label
+    </div>
+    <div id="name">
+        <label>
+            <input name="firstName" placeholder="Имя">
+        </label
+    </div>
+     <br>
+    <div id="gender">
+        Пол:
+        <br>
+        <input id="gender" type="radio" name="gender" value="Мальчик" />
+        <label for="gender">Мальчик</label>
+        <input id="gender" type="radio" name="gender" value="Девочка" />
+        <label for="gender">Девочка</label>
+    </div> 
+    <div id="birthDate">
+        <label for="birth_date">День рождения:</label>
+        <input type="date" id="birth_date" name="birthDate"
+        value="дд.мм.гггг."
+        min="1900-01-01" max="2020-01-01">
+    </div>
+    <div id="city">
+        Город:
+        <label>
+            <select name="city" form="signUp-form">
+              <option value="berlin">Берлин</option>
+              <option value="bremen">Бремен</option>
+              <option value="münich">Мюнхен</option>
+            </select>
+            </label>
+    </div>
+     <p>  Выбери цвет своей новой игрушки:</p>
+    <div id="toyColor">
+       <input type="color" id="favorite_color" name="color"
+        value="#e66465">
+       <label for="favorite_color">Шапочка</label>
+       <br>
+       <input type="color" id="favorite_color" name="color"
+       value="#e6e62a">
+       <label for="favorite_color">Костюм</label>
+    </div>
+      <p>Ты был хорошим ребенком?</p>
+     <div id="behavior">
+        <input type="checkbox" id="agree" name="agree" value="Yes">
+        <label for="agree">Да</label>
+        <input type="checkbox" id="agree2" name="disagree" value="No">
+        <label for="disagree">Нет</label>
+     </div> 
+     <input type="submit" value="Отправить письмо Санте"> 
+   </form> 
+  </body>
+</html>
