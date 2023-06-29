@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>SANTA LETTER</h1>
+<p>Dear baby, you behaved well and now you can ask Santa for anything!!!</p>
+<h3>Feel free to fill out the form below</h3>
+
+<form action="file:///C:/AIT%20Course/front-end/lesson_04/lesson4hwtask1/task_fe-registration-letter-to-santa/greetings.html" 
+method="post" id="santa_forma">
+<div>
+    <label>Login
+        <span class="required">*</span>
+<input required type="login" placeholder="LOGIN"/>
+    </label>
+</div>
+<div>
+    <label>Password
+        <span class="required">*</span>
+<input required type="password" placeholder="PASSWORD"/>
+    </label>
+</div>
+<div>
+    <label>Name
+<input type="name" placeholder="NAME"/>
+    </label>
+</div>
+
+
+<h3>Who are you: boy or girl?</h3>
+<div>
+    <input id="girl" type="radio" name="sex" value="girl">
+    <label for="girl">girl</label>
+    <br>
+    <input  id="boy" type="radio" name="sex" value="boy">
+    <label for="boy">boy</label>
+</div>
+
+<h3>When you was born?</h3>
+<div>
+    <input type="date" id="birth_date" name="birthDate"
+    value="2000-01-01"
+    min="1900-01-01" max="2020-01-01">
+<label for="birth_date">Data of you birth</label>
+</div>
+
+    <div>
+        <label>
+            Adress:
+            <select name="adress" form="santa_forma">
+                <option value="berlin">Berlin</option>
+                <option value="bonn">Bonn</option>
+                <option value="kiyv">Kiyv</option>
+            </select>
+        </label>
+    </div>
+
+
+<h3>choose you favorite color</h3>
+
+<div>
+    <input type="color" id="favorite_color" name="color"
+           value="#e66465">
+    <label for="favorite_color">color</label>
+</div>
+
+<input type="submit" value="send to Santa">
+</form>
+
+
+</body>
+</html>
