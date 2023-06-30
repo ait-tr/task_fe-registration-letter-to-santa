@@ -10,22 +10,22 @@
 <body>
     <h1>Письмо Деду Морозу</h1>
     <h3>Дорогой друг, не стесняйся и расскажи Дедушке Морозу о себе и какие подарки ты ждешь в эту новогоднюю ночь </h3>
-<form method="post" id="signUp-form" action="greetings.html">
+    <form action="greetings.html" method="get">
     <div>
         <label>
-            <span class="required"></span>
+            <span class="required">*</span>
             <input required type="login" placeholder="Логин">
         </label>
     </div>
        <div>
         <label>
-            <span class="required"></span>
+            <span class="required">*</span>
             <input required type="password" placeholder="Пароль">
         </label>
     </div>
     <div>
         <label>
-            <span class="required"></span>
+            <span class="required">*</span>
             <input required type="firstName" placeholder="Имя">
         </label>
     </div>
@@ -44,24 +44,34 @@
     </div>
     <div>
         <label>
+            <h3>Ты знаешь, кто помогает Дедушке Морозу?</h3>
             <select name="contact" form="signUp-form">
+                <option value=></option>
+                <option value="Russia">Снегурочка</option>
+                <option value="Belarus">эльфы</option>
+                <option value="Azerbaijan">олени</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>
+            <h3>А где ты живешь?</h3>
+            <select name="contact" form="signUp-form">
+                <option value=></option>
                 <option value="Russia">Россия</option>
                 <option value="Belarus">Беларусь</option>
                 <option value="Azerbaijan">Ажербайджан</option>
                 <option value="Kazakhstan">Казахстан</option>
+                <option value="Germany">Германия</option>
             </select>
         </label>
     </div>
-    Выбери цвет своей новой игрушки:
+    <h3>Как ты думаешь, какого цвета мешок с подарками?</h3>
     <div>
-        <input type="color" id="cap_color" name="color"value="#ff0000">
-        <label for="cap_color">шапочка</label>
+        <input type="color" id="color" name="color"value="#ffff00">
+        <label for="color"></label>
     </div>
-    <div>
-        <input type="color" id="suit_color" name="color" value="#ffff00">
-        <label for="suit_color">костюм</label>
-    </div>
-    Ты был хорошим ребенком?
+    <h3>Ты был хорошим ребенком?</h3>
     <div>
         <input type="checkbox" id="agree" name="agree_yes" value="Yes">
         <label for="agree1">Да</label>
@@ -70,16 +80,16 @@
         <label for="agree2">Нет</label>
     </div>
     <div>
-    <label for="funny_field1" style="background-color: lightblue;">Самый смешной предмет, который ты хочешь получить:</label>
-    <input type="text" id="funny_field1" name="funnyField1">
+    <label for="funny_field1" "><h3>Какой подарок ты ждешь больше всего:</h3></label>
+    <input type="text_funny" id="funny_field1" name="funnyField1">
 </div>
 <div>
-    <label for="funny_field2">Самая смешная шутка, которую ты знаешь:</label>
-    <textarea id="funny_field2" name="funnyField2" style="background-color: lightgreen;"></textarea>
+    <label for="funny_field2"><h3>Расскажи о своих хороших делах за прошедший год:</h3></label>
+    <textarea id="funny_field2" name="funnyField2" style="background-color:coral;"></textarea>
 </div>
-    <input type="submit" value=" Отправить Деду Морзу">
-   
-
+<div>
+    <input type="submit" value="Отправить Деду Морзу">
+</div>
 </form>    
 </body>
 </html>

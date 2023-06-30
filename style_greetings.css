@@ -1,0 +1,17 @@
+h1{
+   color: crimson;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+body{
+    background-color: rgba(235, 227, 211, 0.678);
+    
+    
+}
+h4{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#text{
+    color: rgb(7, 102, 26);
+}
