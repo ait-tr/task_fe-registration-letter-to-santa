@@ -1,0 +1,45 @@
+
+.registration {
+    background-image: url('/task_fe-registration-letter-to-santa/zimnyaya-skazochnaya-noch-v-preddverii-novogo-goda.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+  }
+
+  .form{
+    background-color: rgba(138, 133, 133, 0.8);
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    color: #f7d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  div{
+    margin: 5px;
+  }
+  input{
+    border-radius: 5px;
+    border-color: blue;
+  }
+  select{
+    border-radius: 5px;
+    border-color: blue;
+  }
+  button{
+    border-radius: 5px;
+    border-color: blue;
+  }
+  .select{
+    background-image: url('/task_fe-registration-letter-to-santa/zimnyaya-skazochnaya-noch-v-preddverii-novogo-goda.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+p{
+    font-size: 16px;
+   color: #f7d1d1;
+}
+
