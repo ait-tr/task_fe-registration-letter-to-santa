@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Санте</title>
+    
+</head>
+<body>
+    <h1>Письмо Санте
+        <h2>Дорогой друг, не стесняйся и расскажи Санте о том, 
+            кто ты и о том, что ты хочешь получить на Рождество.</h2>
+    </h1>
+    <form action="greetings.html" method="get">
+    <div>
+            <label>
+               <input type="text" placeholder="Логин">
+            </label>
+    </div>
+    <br>
+    <div>
+            <label>
+               <input type="text" placeholder="Пароль">
+            </label>
+    </div>
+    <br>
+    <div>
+            <label>
+               <input type="text" placeholder="Имя">
+            </label>
+    </div>
+    <br>
+        
+    <div>   Пол:
+            <br>
+            <br>
+            <input type="radio" name="sex" value="Мальчик">
+            <label for="sex">Мальчик</label>
+        
+            <input type="radio" name="sex" value="Девочка">
+            <label for="sex">Девочка</label>
+    </div>
+        <br>
+    <div>
+            <label for="birth_date">Дата рождения</label>
+            <input type="date" id="birth_date" name="birthDate"
+                   value="2000-01-01"
+                   min="1900-01-01" max="2023-01-01">
+    </div>
+        <br>
+    <div>
+            <label>
+                <select name="city" form="signUp-form">
+                    <option value="city">Киев</option>
+                    <option value="city">Донецк</option>
+                    <option value="city">Харьков</option>
+                    <option value="city">Львов</option>
+                </select>
+            </label>
+    </div>
+        <br>
+    <div> 
+            <label for="favorite_color">Выбери цвет своей любимой игрушки: </label>
+            <br>
+            <br>
+            <input type="color" id="favorite_color" name="color"
+                   value=red>
+            <label for="favorite_color">Шапочка </label>
+            <br>
+            <input type="color" id="favorite_color" name="color"
+                   value="yellow">
+            <label for="favorite_color">Костюм </label>
+    </div>
+        <br>
+    <div>
+        Ты был хорошим ребенком?
+        <br>
+        <br>
+        <input id="gutKids" type="radio" name="gutKids" value="Да">
+        <label for="gutKids">Да</label>
+        <input id="gutKids1" type="radio" name="gutKids" value="Нет">
+        <label for="gutKids1">Нет</label>
+        <br>
+        <br>
+        <button class="button">Отправить письмо Санте</button>
+ </div>
+    </form>
+</body>
+</html>
