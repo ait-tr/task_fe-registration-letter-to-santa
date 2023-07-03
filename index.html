@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to santa</title>
+</head>
+<body>
+   <h1>Письмо Санте</h1>
+   <form method="post" id="singUp-form">
+    <label>
+        <input required type="login" placeholder="Логин">
+    </label>
+    <div>
+    <label>
+        <input required type="password" placeholder="Пароль">
+    </label>
+    </div>
+    <div>
+    <label>
+        <input required type="name" placeholder="Имя">
+    </label>
+    </div>
+    <div>
+        Пол:
+    </div>
+    <div>
+        <input id="gender" type="radio" name="boy" value="Мальчик">
+            <label for="gender">Мальчик</label>
+        <input id="gender" type="radio" name="girl" value="Девочка">
+            <label for="gender">Девочка</label>
+    </div>
+    <div>
+        <label for="birth_date">Дата рождения:</label>
+        <input type="date" id="birth_date" name="birthDate"
+           value="2000-01-01"
+           min="1900-01-01" max="2020-01-01">
+    </div>
+    <div>
+        <select name="town" id="town">
+            <option value="Berlin">Берлин</option>
+            <option value="Munich">Мюнхен</option>
+            <option value="Frankfurt am main">Франкфурт на майне</option>
+        </select>
+    </div>
+    <div>
+        <p>Выбери цвет своей новой игрушки:</p>
+    </div>
+    <div>
+        <input type="color" id="hat_color" name="hat_color"
+           value="#e66465">
+        <label for="hat_color">Шапочка</label>
+    </div>
+    <div>
+        <input type="color" id="costume_color" name="costume_color"
+           value="#f6b73c">
+        <label for="costume_color">Костюм</label>
+    </div>
+    <div>
+        Ты был хорошим ребенком?
+    </div>
+    <div>
+        <input id="answer" type="radio" name="yes" value="Мальчик">
+            <label for="answer">Да</label>
+        <input id="answer" type="radio" name="no" value="Девочка">
+            <label for="answer">Нет</label>
+    </div>
+    <div>
+        <input src="greetings.html" type="submit" value="Отправить письмо Санте">
+    </div>
+   </form> 
+</body>
+</html>
