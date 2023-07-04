@@ -1,0 +1,59 @@
+.header2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.header2,
+.header3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.goBack {
+  text-align: center;
+}
+.aback:link {
+  color: blue;
+  text-decoration: none;
+}
+.aback:hover {
+  text-decoration: underline;
+}
+.aback:visited {
+  color: blueviolet;
+  text-decoration: none;
+}
+.header1 {
+  font-size: 30px;
+  color: chocolate;
+  text-decoration: underline;
+}
+.text {
+  font-size: 14px;
+}
+
+.redioText {
+  font-size: 12px;
+}
+div {
+  margin-bottom: 7px;
+}
+.color {
+  margin-top: 5px;
+}
+.additional {
+  font-size: 10px;
+  border-color: aquamarine;
+}
+.additional::placeholder {
+  transform: translateY(-50px) translateY(50%);
+}
+.inputedText {
+  margin-bottom: 14px;
+}
+.fieldset {
+    width: 50%;
+}
+#send {
+    margin-top: 10px;
+
+}

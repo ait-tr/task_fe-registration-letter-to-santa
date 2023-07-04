@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header1">Письмо Санте</header>
+    <form action="greetings.html" method="get" id="mailToSanta">
+
+        <fieldset class="fieldset">
+            <legend class="legend1">Форма связи с Сантой</legend>
+
+            <p class="text">
+                Дорогой друг! Не стесняйся и расскажи Санте о том, кто ты.
+            </p>
+            <p class="text">А также о том, что ты хочешь в подарок!</p>
+
+            <div>
+                <input class="inputedText" name="firstName" type="text" placeholder="Логин" />
+            </div>
+            <div>
+                <input class="inputedText" name="lastName" type="password" placeholder="Пароль" />
+            </div>
+            <div>
+                <input class="inputedText" name="firstName" type="text" placeholder="Имя" />
+            </div>
+
+            <div>
+                <input id="male" type="radio" name="sex" value="male" checked />
+                <label class="redioText" for="male">Мальчик</label>
+                <input id="female" type="radio" name="sex" value="female" />
+                <label class="redioText" for="female">Девочка</label>
+                <input id="other" type="radio" name="sex" value="other" />
+                <label class="redioText" for="other">Другое</label>
+            </div>
+            <div>
+                <label for="birthDate">Дата рождения:</label>
+                <input type="date" name="birthDate" id="birthDate" />
+            </div>
+            <div>
+                <select name="city" id="city">
+                    <option value="Москва" selected>Москва</option>
+                    <option value="Амстердам">Амстердам</option>
+                    <option value="Афины">Афины</option>
+                    <option value="Белград">Белград</option>
+                    <option value="Берлин">Берлин</option>
+                    <option value="Варшава">Варшава</option>
+                    <option value="Вена">Вена</option>
+                    <option value="Берлин">Берлин</option>
+                    <option value="Киев">Киев</option>
+                    <option value="Париж">Париж</option>
+                    <option value="Прага">Прага</option>
+                    <option value="Хельсинки">Хельсинки</option>
+                </select>
+            </div>
+            Выбери цвет:
+            <div>
+                <input class="color" type="color" id="toyColor" name="color1" value="#e614255" />
+                <label for="toyColor">Цвет игрушки</label>
+            </div>
+            <div>
+                <input class="color" type="color" id="packColor" name="color2" value="#e66465" />
+                <label for="packColor">Обертка</label>
+            </div>
+            <p class="text">Ты был хорошим ребенком?</p>
+            <div>
+                <input id="yes" type="radio" name="ruGood" value="true" checked />
+                <label for="yes">Да</label>
+                <input id="no" type="radio" name="ruGood" value="false" />
+                <label for="no">Нет</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="always" name="always" value="Yes" />
+                <label for="always">Я всегда хороший!</label>
+            </div>
+            <div>
+                <textarea name="additional" id="additional" cols="70" rows="8"
+                    placeholder="Тут ты можешь написать также свои пожелания"></textarea>
+            </div>
+
+  
+    </fieldset>
+    <input id="send" type="submit" value="Отправить письмо Санте" />
+</form>
+</body>
+
+</html>
