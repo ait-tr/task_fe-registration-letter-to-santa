@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Santa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Letter to Santa</h1>
+        <p>Dear friend, don't be shy and tell Santa who you are and what do you want for Christmas.</p>
+    </div>
+
+    <div class="input-fields">
+        <form action="./greetings.html" method="get">
+            <input type="text" name="login" placeholder="Login">
+            <input type="text" name="password" placeholder="Password">
+            <input type="text" name="name" placeholder="Name" required>
+            <img src="./images/santa_with_letter.png" alt="santa_with_letter" id="image-registration">
+    </div>
+
+    <div>
+        <label for="">Gender:</label>
+
+        <input type="radio" name="gender" value="boy" id="radio-boy" required>
+        <label for="radio-boy">Boy</label>
+
+        <input type="radio" name="gender" value="girl" id="radio-girl">
+        <label for="radio-girl">Girl</label>
+    </div>
+
+    <div>
+        <label for="date-of-birth">Date of birth: </label>
+        <input type="date" name="birth" id="date-of-birth">
+    </div>
+
+    <div>
+        <select name="city" id="city">
+            <option value="berlin">Berlin</option>
+            <option value="kharkiv">Kharkiv</option>
+            <option value="moscow">Moscow</option>
+            <option value="valensia">Valensia</option>
+            <option value="odessa">Odessa</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Select color for your new toy:</label>
+        <br>
+        <br>
+        <input type="color" id="colorPicker" name="colorPicker" value="#e66465">
+        <label for="colorPicker">Hat</label>
+        <br>
+        <input type="color" id="colorPicker" name="colorPicker" value="#f5b73d">
+        <label for="colorPicker">Costume</label>
+    </div>
+
+    <div>
+        <label for="good-child">Was you a good child?</label>
+        <input type="radio" name="good-child" value="yes" id="radio-yes" required>
+        <label for="radio-yes">Yes</label>
+        <input type="radio" name="good-child" value="no" id="radio-no">
+        <label for="radio-no">No</label>
+    </div>
+    <button>Send letter to Santa</button>
+    </form>
+</body>
+
+</html>

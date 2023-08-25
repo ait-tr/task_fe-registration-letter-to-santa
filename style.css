@@ -1,0 +1,32 @@
+.input-fields * {
+    display: block;
+    position: static;
+    margin: 0 0 15px 0;
+  }
+
+#image-registration {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+   
+}
+body{
+    position: relative;
+    width: 800px;
+    margin: 25px;
+    padding: 25px;
+    border: 3px dashed blanchedalmond;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div{
+    padding: 0 0 10px 0;
+}
+
+#greetings-img{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 160px;
+}
