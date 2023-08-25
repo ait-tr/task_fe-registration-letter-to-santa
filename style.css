@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  *{margin: 5px;}
+  h1{text-align: center;}
+  *{background-color: antiquewhite;}
+  input{background-color: white;}
+ .parent{position: relative;}
+ .child{position:absolute;
+top: 0;
+left:200px;
+font-size: 30px;
+background-color: rgb(199, 214, 241);
+text-decoration: underline;
+border:solid brown 6px;
+border-radius: 10px;}
+select{background-color: white;}
