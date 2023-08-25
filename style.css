@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+  }
+  button{
+    font-size: 20px;
+    background-color: aquamarine;
+  }
+  
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 5px;
+  }
+  h1{
+    font-size: 40px;
+    color: tomato;
+    text-align: center;
+    margin: 50px;
+  }
+  .divIndex{
+    color: blueviolet;
+    font-size: 20px;
+  }
+  .divGreetings{
+    color: rgb(43, 46, 226);
+    font-size: 40px;
+    text-align: center;
+    margin: 180px;
+  }

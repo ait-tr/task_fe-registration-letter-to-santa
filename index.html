@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Письмо Санте</h1>
+    <div class="divIndex">Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь на Рождество.</div>
+    <form action="" method="get">
+        <input type="text" placeholder="Логин" required>
+        <input type="text" placeholder="Пароль" required>
+        <input type="text" placeholder="Имя" required>
+
+        <legend>Пол:</legend>
+        <div>
+            <input type="radio" name="weapon" value="woman" id="radio-woman">
+            <label for="radio-woman">Женский</label>
+        </div>
+
+        <div>
+            <input type="radio" name="weapon" value="man" id="radio-man" checked>
+            <label for="radio-man">Мужской</label>
+        </div>
+
+        <label for="birth-date-input">Дата рождения * <input type="date" name="birth-date" id="birth-date-input"
+                required></label>
+
+        <select name="City" id="city-input">
+            <option value="Stuttgart">Stuttgart</option>
+            <option value="Todnau">Todnau</option>
+            <option value="Triberg">Triberg</option>
+            <option value="Berlin" selected>Berlin</option>
+        </select>
+        <legend>Выбери цвет своей новой игрушки</legend>
+        
+        <label for="colorSh"><input type="color" name="colorSH">Шапочка</label>
+        <label for="colorK"><input type="color" name="colorK">Костюм</label>
+        <legend>Ты был хорошим ребенком?</legend>
+        <div>
+            <input type="radio" name="weapon" value="yes" id="radio-yes">
+            <label for="radio-woman">Да</label>
+            <input type="radio" name="weapon" value="no" id="radio-no" checked>
+            <label for="radio-man">Нет</label>
+        </div>
+        
+        <button type="submit" ><a href="./greetings.html">Подать заявку на вступление</a></button>
+        
+    </form>
+
+
+</body>
+
+</html>
