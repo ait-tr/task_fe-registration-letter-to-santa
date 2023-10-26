@@ -20,3 +20,15 @@ p {
     padding: 8px 10px;
     margin-bottom: 10px;
 }
+
+.btn-to-santa {
+    font-size: 32px;
+    background-color: rgb(9, 93, 139);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 14px;
+  &:hover{
+    background-color: red;
+}
+}

@@ -45,18 +45,38 @@
       />
 
       <p>Пол:</p>
-      <input type="radio" name="gender" id="male-gender" required/>
+      <input type="radio" name="gender" id="male-gender" required />
       <label for="male-gender">Мальчик</label>
-      <input type="radio" name="gender" id="famale-gender" required/>
+      <input type="radio" name="gender" id="famale-gender" required />
       <label for="famale-gender">Девочка</label>
       <br />
       <br />
       <label for="date">День родждения:</label>
-      <input type="date" name="date" id="birthday" required/>
+      <input type="date" name="date" id="birthday" required />
+      <br />
+      <br />
+      <select name="city" id="city selection">
+        <option value="1">Москва</option>
+        <option value="2">Берлин</option>
+        <option value="3">Лондон</option>
+        <option value="4" selected>Штутгарт</option>
+        <option value="5">Париж</option>
+      </select>
+      <p>Выбери цвет новой игрушки:</p>
+      <input type="color" name="color1" id="color1" value="#e66465" />
+      <label for="color1">Шапочка</label><br />
+      <input type="color" name="color2" id="color2" value="#f6b73c" />
+      <label for="color2">Костюм</label>
+      <br />
+      <p>Ты был хорошим ребенком?</p>
+      <input type="radio" name="boolean" id="yes" required />
+      <label for="yes">Да</label>
+      <input type="radio" name="boolean" id="no" required />
+      <label for="no">Нет</label>
       <br />
       <br />
 
-      <button type="submit">Отправить письмо Санте</button>
+      <button type="submit" class="btn-to-santa">Отправить письмо Санте</button>
     </form>
   </body>
 </html>
