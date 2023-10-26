@@ -13,26 +13,55 @@
       хочешь получить на Рождество.
     </div>
     <form action="greetings.html">
-      <input type="text" name="login" id="login-input" placeholder="Логин" />
+      <div class="login-form">
+        <input type="text" name="login" id="login-input" placeholder="Логин" />
+        <br />
+        <input
+          type="text"
+          name="password"
+          id="password-input"
+          placeholder="Пароль"
+        />
+        <br />
+        <input type="text" name="name" id="name-input" placeholder="Имя" />
+
+        <div>Пол:</div>
+        <input type="radio" name="sex" id="male" />
+        <label for="male">Мальчик</label>
+        <input type="radio" name="sex" id="female" />
+        <label for="female">Девочка</label>
+        <br />
+
+        <label for="birthday-input">Дата рождения</label>
+        <input type="date" name="birthday" id="birthday-input" />
+        <br />
+
+        <select name="city" id="city-input">
+          <option value="moscow">Москва</option>
+          <option value="saint-petersburg" selected>Санкт-Петербург</option>
+          <option value="samara">Самара</option>
+          <option value="kazan">Казань</option>
+          <option value="other">Другой (нет в списке)</option>
+        </select>
+      </div>
+
+      <div>Выбери цвет своей новой игрушки:</div>
+      <input type="color" name="hat-color" id="hat-color" value="#ff6347" />
+      <label for="hat-color">Шапочка</label>
       <br />
       <input
-        type="text"
-        name="password"
-        id="password-input"
-        placeholder="Пароль"
+        type="color"
+        name="costume-color"
+        id="costume-color"
+        value="#ffd700"
       />
-      <br />
-      <input type="text" name="name" id="name-input" placeholder="Имя" />
+      <label for="costume-color">Костюм</label>
 
-      <div>Пол:</div>
-      <input type="radio" name="sex" id="male" />
-      <label for="male">Мальчик</label>
-      <input type="radio" name="sex" id="female" />
-      <label for="female">Девочка</label>
-      <br />
-
-      <label for="birthday">Дата рождения</label>
-      <input type="date" name="birthday" id="birthday" />
+      <div>Ты был хорошим ребёнком?</div>
+      <input type="radio" name="yes-or-no" id="yes" />
+      <label for="yes">Да</label>
+      <input type="radio" name="yes-or-no" id="no" />
+      <label for="no">Нет</label>
     </form>
   </body>
 </html>
