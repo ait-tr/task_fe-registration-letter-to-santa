@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Письмо Санта Клаусу</title>
 </head>
+
 <body>
     <h1>
         Письмо Санте.
     </h1>
-    <p>
-      Дорогой друг! Чтобы отправить свое письмо Санте, нужно рассказать о себе, чтобы Санта знал, кому 
-      он везет подарок. Пройди быструю регистрацию и ответь честно на все вопросы.  
-    </p>
+    <form action="greetings.html" method="get">
+        <p>
+            Дорогой друг! Чтобы отправить свое письмо Санте, нужно рассказать о себе, чтобы он знал, кому
+            везти подарки. Пройди быструю регистрацию и ответь честно на все вопросы.
+        </p>
+        <label for="login"></label>
+        <input type="text" id="login" placeholder="введите ваш логин" name="login" required>
+        <br>
+        <br>
+        <label for="password"></label>
+        <input type="text" id="password" placeholder="введите ваш пароль" name="password" required>
+        <br>
+        <br>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="введите ваше имя" name="name" required>
+        <br>
+        <br>
+        <input type="radio" id="sex" name="choice" value="Male">
+    <label for="male-input">Мальчик</label>
+    <input type="radio" id="sex" name="choice" value="Female" checked>
+    <label for="female-input">Девочка</label>
+    <br>
+    <br>
+        <label for="birth-date">День рождения</label>
+         <input type="date" id="birth-date" placeholder="дата рождения" name="birthDate" required>
+
+    </form>
 </body>
+
 </html>
