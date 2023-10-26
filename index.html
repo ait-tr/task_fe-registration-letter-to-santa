@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css" />
 
-<title>Письмо Санта-Клаусу</title>
+    <title>Письмо Санта-Клаусу</title>
   </head>
   <body>
     <h1>Письмо Санте</h1>
@@ -19,10 +19,44 @@
     </p>
 
     <form action="greetings.html" method="get">
+      <input
+        class="input"
+        type="text"
+        name="login"
+        id="login"
+        placeholder="Логин"
+        required="required"
+      />
+      <input
+        class="input"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Пароль"
+        required
+      />
+      <input
+        class="input"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Имя"
+        required
+      />
 
+      <p>Пол:</p>
+      <input type="radio" name="gender" id="male-gender" required/>
+      <label for="male-gender">Мальчик</label>
+      <input type="radio" name="gender" id="famale-gender" required/>
+      <label for="famale-gender">Девочка</label>
+      <br />
+      <br />
+      <label for="date">День родждения:</label>
+      <input type="date" name="date" id="birthday" required/>
+      <br />
+      <br />
 
-
-     <button type="submit">Отправить письмо Санте</button>   
+      <button type="submit">Отправить письмо Санте</button>
     </form>
   </body>
 </html>
