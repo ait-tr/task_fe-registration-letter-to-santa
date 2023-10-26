@@ -1,0 +1,15 @@
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(65, 15, 159);
+}
+
+#title {
+    font-size: 30px;
+    color: rgb(221, 19, 133);
+}
