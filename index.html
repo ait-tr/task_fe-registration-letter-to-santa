@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<link rel="stylesheet" href="./css/style.css">
+
 <body>
-    <h1>Письмо Санте</h1>
-    <p>
-        Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том,
-         что ты хочеш получить на Рождествою 
-    </p>
+    <form action="greetings.html">
+        <h1>Письмо Санте</h1>
+        <p>
+            Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том,
+            что ты хочеш получить на Рождествою
+        </p>
+        
+
+        <input type="text" id="login" placeholder="Логин">
+        <input type="text" id="password" placeholder="Пароль">
+        <input type="text" id="name" placeholder="Имя">
+
+        <h3>Пол:</h3>
+        <input type="radio" id="boy" name="weapon">
+        <label for="boy-input">Мальчик</label>
+        <input type="radio" id="girl" name="weapon">
+        <label for="girl-input">Девочка</label>
+
+        <h3>Возраст:</h3>
+        <input type="radio" id="child" name="weapon">
+        <label for="child-input">Ребенок</label>
+        <input type="radio" id="teenager" name="weapon">
+        <label for="teenager-input">Подросток</label>
+        
+<p></p>
+        <label for="birth-date">День рождения</label>
+        <input type="date" id="birth-date" placeholder="дта рождения" name="name">
+
+        <h3>Город: </h3>
+        <select name="citySelection" id="sityInput">
+            <option value="1">Киев</option>
+            <option value="2">Харьков</option>
+            <option value="3" selected>Бердянск</option>
+            <option value="4">Bremerchaven</option>
+            <option value="5">Ваш вариант</option>
+        </select>
+
+        <h3>Выбери тип игрушки: </h3>
+        <select name="citySelection" id="sityInput">
+            <option value="1">Мягкая игрушка</option>
+            <option value="2">Развивающая игрушка</option>
+            <option value="3" selected>Электронная игрушка</option>
+            <option value="4">Спортивный инвентарь</option>
+            <option value="5">Ваш вариант</option>
+        </select>
+
+        <h3> Выбеи цвет своей новой игрушки: </h3>
+        
+        <input type="color" id="cap-color" placeholder="Шапочка" name="capColor">
+        <label for="gift-color">Цвет</label>
+
+        
+        <h3>Выбери тип доставки: </h3>
+        <select name="citySelection" id="sityInput">
+            <option value="1">Через дымоход</option>
+            <option value="2">В рукавичьку на камине</option>
+            <option value="3" >Рядом с кроватью</option>
+            <option value="4" selected>Под Елку</option>
+            <option value="5">Кинут возле двери</option>
+        </select>
+    
+        <h3>Ты был хорошим ребенком?</h3>
+        <input type="radio" id="yes" name="weapon">
+        <label for="yes-input">Да</label>
+        <input type="radio" id="no" name="weapon">
+        <label for="no-input">Нет</label>
+
+       
+
+    </form>
 </body>
+
 </html>

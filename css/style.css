@@ -1,0 +1,14 @@
+#login,#password,#name{
+    margin: 5px;
+}
+
+
+form {
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+}
+br{
+    display: none;
+}
