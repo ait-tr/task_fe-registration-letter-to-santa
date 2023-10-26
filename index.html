@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Registration form</title>
 </head>
 <body>
@@ -11,25 +12,82 @@
   <h3>Хочешь подарок на Рождество? Докажи что ты не робот и веришь в Санту! Заполни форму регистрации!</h3>
   <p>Но учти, мы проверим Все твои персональные данные!</p>
   <p>Будь осторожней с желаниями - это отобразит уровень твоей меркантильности!</p>
-  <p>Загадывать еще желания Запрещено, иначе рискуешь получить раскаленный уголек в носочек!</p>
+  <p>Просить дополнительные жаления вместо подарка Запрещено, иначе рискуешь получить раскаленный уголек в носочек!</p>
 
-  <form action="">
-    <input type="text" placeholder="логин" required>
-    <input type="text" placeholder="пароль" required>
-    <input type="text" placeholder="имя" required>
-    <p>Пол:</p>
+  <form action="greetings.html">
+    <input type="text" placeholder="логин">
+    <input type="text" placeholder="пароль">
+    <input type="text" placeholder="имя">
+    <p class="title-form">Пол:</p>
     <input type="radio" name="gender" id="boy-input" value="boy">
     <label for="boy-input">Мальчик</label>
     <input type="radio" name="gender" id="girl-input" value="girl" checked>
     <label for="girl-input">Девочка</label>
 
-    <br>
+    <p class="title-form"></p>
     <label for="birth-date">Дата появления на свет по юлианскому календарю</label>
-    <input type="date" name="birth-date" id="birth-date" placeholder="дата рождения" required>
+    <input type="date" name="birth-date" id="birth-date" placeholder="дата рождения">
+
+    <h3>А теперь ответь на вопросы Санты, чтоб понять хороший ты человек или неочень:</h3>
+    <label for="trash-container">В какой контейнер ты выбрасываешь свои сигаретные бычки?</label>
+    <select name="trash-container" id="trash-container">
+      <option value="blue">Синий</option>
+      <option value="yellow" selected>Желтый</option>
+      <option value="black">Черный</option>
+      <option value="brown">Коричневый</option>
+      <option value="quit-smoking">Бросил курить</option>
+    </select>
+
+    <p class="title-form">Ты встретил очень голодную лисичку и милого зайчика, твои действия:</p>
+    <input type="radio" name="animals" id="fox-input" value="feed-the-fox">
+    <label for="fox-input">Накормить лисичку зайчиком</label>
+    <input type="radio" name="animals" id="hare-input" value="save-the-hare">
+    <label for="hare-input">Спасти зайчика ( лисичка умрет от голода)</label>
+    <input type="radio" name="animals" id="eat-the-hare-input" value="eat-the-hare">
+    <label for="eat-the-hare-input">Скушать зайчика самому</label>
+    <input type="radio" name="animals" id="snickers -input" value="snickers">
+    <label for="snickers -input">Отдать лисичке свой SNICKERS</label>
+
+    <p class="title-form">Каких домашних животных вы бы хотели получить под елку: </p>
+    <input type="checkbox" name="karakurt" id="karakurt">
+    <label for="karakurt">Каракурт</label>
+    <input type="checkbox" name="hyena" id="hyena">
+    <label for="hyena">Гиена</label>
+    <input type="checkbox" name="dog" id="dog">
+    <label for="dog">Собачка</label>
+    <input type="checkbox" name="skunk" id="skunk">
+    <label for="skunk">Скунс</label>
+    <input type="checkbox" name="kitty" id="kitty">
+    <label for="kitty">Кошечка</label>
+    <input type="checkbox" name="black-Widow" id="black-Widow">
+    <label for="black-Widow">Черная вдова с мужем</label>
+    <input type="checkbox" name="gull" id="gull">
+    <label for="gull">Чайка</label>
+    <input type="checkbox" name="goose" id="goose">
+    <label for="goose">Гусь</label>
+    <input type="checkbox" name="pony" id="pony">
+    <label for="pony">Пони</label>
+    <input type="checkbox" name="one-lovebird" id="one-lovebird">
+    <label for="one-lovebird">Один неразлучник </label>
+    <input type="checkbox" name="two-lovebirds" id="two-lovebirds">
+    <label for="two-lovebirds">Два неразлучника </label>
+    <input type="checkbox" name="chlamydia" id="chlamydia">
+    <label for="chlamydia">Хламидии</label>
+
+    <br>
+    <label for="red-hat">Какого цвета волосы у красной шапочки? </label>
+    <input type="color" name="red-hat" id="red-hat">
+    <label for="sith-sword">Какого цвета световые мечи ситхов? </label>
+    <input type="color" name="sith-sword" id="sith-sword">
+    <label for="ciliate">Какого цвета инфузории-туфельки у эльфов Санты? </label>
+    <input type="color" name="ciliate" id="ciliate">
     
+    <p>Почти все! И напоследок загадка от Санты:</p>
+    <label for="ladybug">Как называется самец божьей коровки? </label>
+    <input type="text" name="ladybug" id="ladybug">
 
-
-
+    <br>
+    <button type="submit" class="btn-send">отправить</button>
   </form>
   
 </body>

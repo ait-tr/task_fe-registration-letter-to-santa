@@ -1,0 +1,38 @@
+html {
+  text-align: center;
+}
+h1 {
+  background-color: rgb(243, 10, 10);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 14px;
+  margin: 4px;
+  
+}
+
+.btn-send {
+  background-color: rgb(243, 10, 10);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 14px;
+  margin: 4px;
+}
+
+.btn-send:hover {
+  background-color: rgb(195, 1, 1);
+}
+
+.title-form {
+  margin: 1px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.greetings {
+  width: 800px;
+}
+.greetings {
+  font-size: 20px;
+}
