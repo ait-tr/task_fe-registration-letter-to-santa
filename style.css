@@ -1,0 +1,32 @@
+.inputData {
+  margin-bottom: 15px;
+}
+
+.fieldset {
+  margin-left: 0;  
+  padding-left: 0;
+  border: none;
+}
+
+.label {
+  display: block;  
+}
+
+.birthDate {
+  margin-bottom: 15px;
+}
+
+.selectCity {
+  margin-bottom: 15px;
+}
+
+.btn-letter-to-santa {
+  background-color: white;
+  color: rgb(44, 40, 40);
+  border-radius: 5px;
+  padding: 5px 8px;
+
+  &:hover {
+    background-color: lightblue;
+  }
+}

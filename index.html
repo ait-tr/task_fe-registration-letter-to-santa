@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Letter to Santa</title>
+</head>
+
+<body>
+  <h1>Письмо Санте</h1>
+  <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество</p>
+  <form action="greetings.html" method="get">
+    <div class="inputData">
+      <input type="text" id="login" placeholder="логин" name="loginName" required />
+      <label for="login">Твой логин</label>
+    </div>
+    <div class="inputData">
+      <input type="text" id="password" placeholder="пароль" name="password" required />
+      <label for="password">Твой пароль</label>
+    </div>
+    <div class="inputData">
+      <input type="text" id="name" placeholder="имя" name="name" required />
+      <label for="name">Твое имя</label>
+    </div>
+    
+    <fieldset class="fieldset">
+      <label class="label">Пол</label>
+      <br>
+      <input type="radio" id="male-input" name="gender" value="male" checked />
+      <label for="male-input">Мальчик</label>
+      <input type="radio" id="female-input" name="gender" value="female" />
+      <label for="female-input">Девочка</label>
+    </fieldset>
+
+    <div class="birthDate">
+      <label for="birthDate">Дата рождения: </label>
+      <input type="date" id="birthDate" placeholder="дата рождения" name="birth-date" required />
+    </div>
+
+    <select class="selectCity" name="city" id="cityInput">
+      <option value="Saint-Petersburg" selected>Санкт-Петербург</option>
+      <option value="Moskow">Москва</option>
+      <option value="Rostov-on-Don">Ростов-на-Дону</option>
+    </select>
+
+    <fieldset class="fieldset">
+      <label class="label">Выбери цвет своей новой игрушки:</label>
+      <br>
+      <input type="color" id="toyColor" name="toyColor" value="#c75296" />
+      <label for="toyColor">Шапочка</label>
+      <br>
+      <input type="color" id="toyColor" name="toyColor" value="#ffd500" />
+      <label for="toyColor">Костюм</label> 
+    </fieldset>
+    <br />
+
+    <fieldset class="fieldset">
+      <label class="label">Ты был хорошим ребенком?</label>
+      <br>
+      <input type="radio" id="yes-input" name="yes-no" value="yes" checked />
+      <label for="yes-input">Да</label>
+      <input type="radio" id="no-input" name="yes-no" value="no" />
+      <label for="no-input">Нет</label>
+    </fieldset>   
+
+    <br />
+    <button type="submit" class="btn-letter-to-santa">Отправить письмо Санте</button>
+  </form>
+</body>
+
+</html>
