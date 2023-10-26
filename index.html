@@ -30,14 +30,36 @@
         <br>
         <br>
         <input type="radio" id="sex" name="choice" value="Male">
-    <label for="male-input">Мальчик</label>
-    <input type="radio" id="sex" name="choice" value="Female" checked>
-    <label for="female-input">Девочка</label>
-    <br>
-    <br>
+        <label for="male-input">Мальчик</label>
+        <input type="radio" id="sex" name="choice" value="Female" checked>
+        <label for="female-input">Девочка</label>
+        <br>
+        <br>
         <label for="birth-date">День рождения</label>
-         <input type="date" id="birth-date" placeholder="дата рождения" name="birthDate" required>
+        <input type="date" id="birth-date" placeholder="дата рождения" name="birthDate" required>
+        <br>
+        <br>
+                   <p>Чем ты любишь заниматься:</p>
+            <select name="numberOfLegs" id="legsInput">
+                <option value="3">Я люблю ходить в садик</option>
+                <option value="2">Я люблю играться</option>
+                <option value="1">Я люблю купаться</option>
+                <option value="0" selected>Выбери свое любимое занятие</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+                <label>Какие подарки тебе нравятся больше всего:</label>
+                <input id="gifts" type="checkbox" name="gifts" value="expensive">
+                <label for="gifts">Хорошие</label>
+          
+                <input id="presents" type="checkbox" name="presents" value="cheap">
+                <label for="presents">Плохие</label>
 
+                <input id="books" type="checkbox" name="books" value="worst">
+                <label for="books">Книги</label>
+              </fieldset>
+        
     </form>
 </body>
 
