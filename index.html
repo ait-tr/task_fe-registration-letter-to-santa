@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Регистрация для получения подарков от Санты</h1>
+    <form action="greetings.html" method="post">
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login" required><br><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="fio">ФИО:</label>
+        <input type="text" id="fio" name="fio" required><br><br>
+
+        <label>Пол:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Женский</label><br><br>
+
+        <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="gift-preference">Пожелания к подарку:</label>
+        <textarea id="gift-preference" name="gift-preference" rows="4" cols="50"></textarea><br><br>
+
+        <label for="favorite-color">Любимый цвет:</label>
+        <input type="color" id="favorite-color" name="favorite-color"><br><br>
+
+        <label for="country">Страна проживания:</label>
+        <select id="country" name="country">
+            <option value="Deutschland">Германия</option>
+            <option value="usa">США</option>
+            <option value="china">Китай</option>
+            <option value="other">Другая</option>
+        </select><br><br>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+    <a href="greetings.html">Перейти к поздравлению</a>
+</body>
+</html>
