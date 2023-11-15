@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Letter to Santa</h1>
+    <form action="./greetings.html" method="get">
+        <label for="your-login-input">Login</label>
+        <input type="text" login="your-login" id="your-login-input" required><br><br><br>
+
+        <label for="your-password-input">Password</label>
+        <input type="text" Password="your-password" id="your-login-input" required><br><br><br>
+
+        <label for="your-full-name-input">Full Name</label>
+        <input type="text" Password="your-full-name" id="your-full-name-input" required><br><br><br>
+
+
+        <legend>Gender:</legend>
+        <div>
+            <input type="radio" name="gender" id="radio-gender" value="boy">
+            <label for="radio-gender">Boy</label>
+        </div><br>
+        <div>
+            <input type="radio" name="gender" id="radio-gender" value="girl">
+            <label for="radio-gender">Girl</label>
+        </div>
+        <br><br>
+
+        <label for="birth-date">Date of birth</label><br>
+        <input type="date" name="birth-date"><br><br>
+
+        <label for="city-input">City</label>
+        <select name="your-city" id="city-input">
+            <option value="0"></option>
+            <option value="1">Berlin</option>
+            <option value="2">Hamburg</option>
+            <option value="3">Köln</option>
+            <option value="4">Falkensee</option>
+
+        </select><br><br><br>
+
+
+        <legend>Were you a good kid?</legend><br>
+        <div>
+            <input type="radio" name="good-kid" id="radio-good-kid" value="yes">
+            <label for="radio-good-kid">Yes</label>
+        </div><br>
+        <div>
+            <input type="radio" name="good-kid" id="radio-good-kid" value="no">
+            <label for="radio-good-kid">No</label>
+        </div><br>
+
+        <button type="submit">Send to Santa</button>
+
+
+    </form>
+</body>
+
+</html>
