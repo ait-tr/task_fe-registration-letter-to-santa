@@ -1,0 +1,12 @@
+body{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUv6JGxWhz-iTnIfcAZSWpXQeE0BXsqHvLRA&usqp=CAU );
+   background-size: 85%;
+   background-position: right;
+   margin: 40px;
+}
+.color{
+   color: red;
+}
+.Santa{
+   color: rgb(255, 0, 68);
+}

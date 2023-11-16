@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо Санте</title>
+</head>
+<body>
+ <h2 class="Santa">Письмо Санте</h2>
+ <form action="./greetings.html" method="get">
+<p>Дорогой друг, не стесняйся, расскажи Санте о том, кто ты и о том, что ты хочешь получить на Рождество</p>
+<input type="text" placeholder="Логин" name="parrot"><br><br>
+<input type="text" placeholder="Пароль" name="parrot"><br><br>
+<input type="text" placeholder="Имя" name="parrot"><br><br>
+
+<legend>Пол</legend><br>
+<div>
+    <input type="radio" name="radio-gender" id="пол" value="мальчик">
+    <label for="radio-gender">Мальчик</label>
+</div>
+<div>
+    <input type="radio" name="radio-gender" id="пол" value="девочка">
+    <label for="radio-gender">Девочка</label><br><br>
+</div>
+<label for="birth-date">Дата рождения</label>
+<input type="date" name = "birth-date"></input><br><br>
+<label for="city">Город проживания</label>
+<input type="city" name="radio-city" id="city" >
+<p class="color">Выбери цвет своей новой игрушки:</p>
+<input type="color" name="toys" id="toys">
+<label for="toys">Шапочка</label><br><br>
+
+<input type="color" name="toys" id="toys">
+<label for="toys">Костюмчик</label><br>
+<p>Ты был хорошим ребенком?</p>
+
+<div>
+    <input type="radio" name="radio-response" id="пол" value="да">
+    <label for="radio-response">Да</label>
+</div>
+<div>
+    <input type="radio" name="radio-response" id="пол" value="нет">
+    <label for="radio-response">Нет</label><br><br>
+</div><br>
+
+<button type="submit">Отправить заявку Санте</button>
+
+</body>
+</html>
